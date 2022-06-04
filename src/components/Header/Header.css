@@ -1,0 +1,26 @@
+.app-info {
+  padding: 25px;
+  background: url('https://kartinkin.net/uploads/posts/2021-07/1626781243_28-kartinkin-com-p-fon-chernii-grafit-krasivo-29.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 34px;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.75);
+
+  transition: all 0.7s ease;
+}
+.app-info__title {
+  color: #ffd700;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em;
+  transition: all 0.9s ease;
+}
+.app-info__highlight {
+  color: #458dea;
+}
+.app-info:hover {
+  transform: scale(1.02);
+}
+.app-info:hover .app-info__title {
+  transform: scale(1.02);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 0, 0), 0 0 0.2em;
+}

@@ -1,0 +1,23 @@
+.search-panel {
+  margin-top: 30px;
+  padding: 25px;
+  background: url('https://kartinkin.net/uploads/posts/2021-07/1626781243_28-kartinkin-com-p-fon-chernii-grafit-krasivo-29.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 34px;
+  box-shadow: 15px 25px 30px rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+
+.form-control {
+  background-color: #ffd700;
+  color: #000;
+}
+.form-control::placeholder {
+  color: #000;
+}
+.form-control:focus {
+  background-color: #ffd700;
+  outline: 1px solid #458dea;
+}

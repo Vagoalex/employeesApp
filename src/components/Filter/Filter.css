@@ -1,0 +1,29 @@
+.btn-group {
+  margin-top: 20px;
+}
+.btn {
+  color: #ffd700;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid #ffd700;
+}
+
+.btn--active {
+  color: #000;
+  border: 1px solid #ffd700;
+  background-color: #1777f5;
+}
+.btn--active:hover {
+  background-color: #006eff;
+  color: #ffd700;
+}
+.btn-outline:hover {
+  background-color: #ffd700;
+}
+.btn--active:active {
+  color: #000;
+}
+.btn-outline:active {
+  background-color: #1777f5;
+}
