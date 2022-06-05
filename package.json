@@ -2,6 +2,7 @@
   "name": "employees",
   "version": "0.1.0",
   "private": true,
+  "homepage": "  https://vagoalex.github.io/employeesApp",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -12,13 +13,16 @@
     "web-vitals": "^1.0.1"
   },
   "devDependencies": {
-    "react-error-overlay": "6.0.9"
+    "react-error-overlay": "6.0.9",
+    "gh-pages": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -1,7 +1,7 @@
 # Hi! It's my first react desktop app - _Employees App_
 
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app).
+Link to this project
+[Employees App](https://vagoalex.github.io/employeesApp/index.html).
 
 ## - About this App
 
@@ -19,7 +19,11 @@ This project was bootstrapped with
 
 ## - Available Scripts
 
-In the project directory, you can run:
+In the project directory, you need to run:
+
+### `npm i` or `npm install` for install node_modules.
+
+After installing node_modules you can run:
 
 ### `npm start`
 
